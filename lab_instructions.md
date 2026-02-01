@@ -41,13 +41,13 @@ After creating your program, test your program using the following values:
 An employee's total gross pay can be calculated with the following equation:
 
 $$
-Gross Pay = HourlyWage*Regular Hours + Overtime Pay
+Gross Pay = (HourlyWage \cdot Regular Hours) + Overtime Pay
 $$
 
 Overtime Pay is calculated as the following:
 
 $$
-Overtime Pay = ExtraHours*1.5*HourlyWage
+Overtime Pay = ExtraHours \cdot 1.5 \cdot HourlyWage
 $$
 
 Create a program called `employeepay.py` that takes the inputs for the hourly wage and total hours. Assume that regular hours is 80 hours and that there is always overtime hours. Have it display the normal pay, overtime pay, and gross pay.
