@@ -5,6 +5,7 @@ In the ancient times, Eratothenes estimated the radius of the Earth through geom
 $$
 \frac{\theta}{360\degree} = \frac{D}{2\pi R}
 $$
+
 With some simple algebra, we can calculate the Radius of the Earth:
 
 $$
