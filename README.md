@@ -1,4 +1,4 @@
-## Lab 2: Data Types and Expressions
+# Lab 2: Data Types and Expressions
 The purpose of these series of labs is to get you familiar with using different types of data types and expressions. 
 
 Chapter 2 covers a lot, but here is a summary of what was covered.
