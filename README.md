@@ -45,7 +45,7 @@ I will grade mostly for functionality but also do some test cases on my end.
 Labs 2a-c will have no test cases as test values are already provided. 
 ### Lab 2d
 
-Case 1:
+Assume that worker always has overtime pay...
 ```
 Enter your hourly pay: 22
 Enter the amount of hours worked: 90
@@ -55,18 +55,6 @@ Overtime Hours: 10
 Regular Pay: $1760
 Overtime Pay: $330
 Gross Pay: $2090
-```
-
-Case 2:
-```
-Enter your hourly pay: 18
-Enter the amount of hours worked: 75
-
-Total Hours Worked: 75
-Overtime Hours: 0
-Regular Pay: $1350
-Overtime Pay: $0
-Gross Pay: $1350
 ```
 
 ## Lab 2e
