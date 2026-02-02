@@ -1,5 +1,9 @@
 ## Lab 2a: Physics in Action!
 
+
+
+
+
 ## Lab 2b: Engineering Statics
 
 
@@ -52,3 +56,6 @@ $$
 
 Create a program called `employeepay.py` that takes the inputs for the hourly wage and total hours. Assume that regular hours is 80 hours and that there is always overtime hours. Have it display the normal pay, overtime pay, and gross pay.
 
+## Lab 2e
+
+Many restaurants has tip already added into your bill. This is known as Gratuity. Have the user enter the restaurant bill, and the Gratuity percent. Then display the tip amount from the bill, and the total bill. 
