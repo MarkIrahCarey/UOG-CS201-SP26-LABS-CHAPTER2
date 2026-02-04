@@ -1,5 +1,5 @@
 # Lab 2: Data Types and Expressions
-The purpose of these series of labs is to get you familiar with using different types of data types and expressions. 
+The purpose of these series of labs is to get you familiar with using different types of data types, expressions and the math module, learn how to interpret what are the user requirements or goals behind each program, and apply these new functions, expressions, and modules into different algebraic functions.
 
 Chapter 2 covers a lot, but here is a summary of what was covered.
 
@@ -39,10 +39,19 @@ Other help functions: `help()`, `dir()`
 |Lab 2d| Calcuating employee pay | 15pts|
 |Lab 2e| Taxes on a Restaurant | 10pts|
 
-I will grade mostly for functionality but also do some test cases on my end.
+I will grade mostly for functionality but also the test cases on my end.
 ## Test cases
 
-Labs 2a-c will have no test cases as test values are already provided. 
+Will insert laba-c test cases later...
+### Lab 2a
+```
+```
+### Lab 2b
+```
+```
+### Lab 2c
+```
+```
 ### Lab 2d
 
 Assume that worker always has overtime pay...
