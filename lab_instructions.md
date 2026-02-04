@@ -24,7 +24,7 @@ We want to know how we can get the following:
 - How long will it fly?
 - How far it will go?
 
-To calculate this, there are three things we need to look out for, position, velocity, and acceleration. Gravity always pulls down, so `g = -9.81m/s^2`.
+To calculate this, there are three things we need to look out for, displacement, velocity, and acceleration. Gravity always pulls down, so `g = -9.81m/s^2`.
 
 Lets look at our two friends, displacement and velocity which are the following equations:
 
@@ -59,20 +59,28 @@ y(t) &= 0 + v_{0y}t + \dfrac{1}{2}(-g)t^2 \\
 \end{align*}
 $$
 
-Using these two equations, we can solve the 3 questions from earlier.
+Using these equations, we can solve the 3 questions from earlier.
 
 #### How high will it go?
 
-The highest point means that our velocity reaches zero. Taking the derivative of y(t) and setting it equal to zero we get that $y'(t) = v_y = 0 = v_0\sin\theta - gt_{peak}$. 
+The highest point means that our velocity reaches zero. Taking the derivative of y(t) and setting it equal to zero we get that 
 
-So $t_{peak} = \dfrac{v_0\sin\theta}{g}$
+$$
+y'(t) = v_y = 0 = v_0\sin\theta - gt_{peak}
+$$ 
+
+So, for the time at the highest point:
+
+$$
+t_{peak} = \dfrac{v_0\sin\theta}{g}
+$$
 
 Plugging that into y(t) we get the following: 
 
 $$
 \begin{align*}
 y(t_{peak}) = H &= (v_0\sin\theta)(\dfrac{v_0\sin\theta}{g}) - \dfrac{1}{2}(g)(\dfrac{v_0\sin\theta}{g})^2 \\
-&= \dfrac{v_0^2\sin^2\theta}{2g}
+&\fbox{$H = \dfrac{v_0^2\sin^2\theta}{2g}$}
 \end{align*}
 $$
 
@@ -90,7 +98,7 @@ $$
 Then our solution for T is the 2nd:
 
 $$
-T = \dfrac{2v_0\sin\theta}{g}
+\fbox{$T = \dfrac{2v_0\sin\theta}{g}$}
 $$
 
 
@@ -107,7 +115,7 @@ $$
 Using our trig identity where $2\sin\theta\cos\theta = \sin(2\theta)$ we get:
 
 $$
-x(t) = \dfrac{v_0^2\sin(2\theta)}{g}
+\fbox{$x(t) = \dfrac{v_0^2\sin(2\theta)}{g}$}
 $$
 
 Create a program called `projectile_calculator.py` that for any ball or projectile, asks for the initial velocity ($v_0$) and angle ($\theta$) in degrees from the user, then calculates and returns how hight the ball will fly, how long the ball will be in the air, and how far the ball will travel. Assume no air resistance and that gravity is `g = 9.81`. 
@@ -147,9 +155,9 @@ $$
 
 Where L is the length of the bridge, and W is the Load per meter given by $w = \dfrac{F}{L}$, b is the width, and h is the height. 
 
-Then F is the total weight from all cars on the bridge given by $F = m_{total}g$
+Then F is the total weight from all cars on the bridge given by $F = (m_{total})g$
 
-You can represent this instead as n cars with the mass of each car, $F = n_{total cars}m_{mass of car}g$
+You can represent this instead as n cars with the mass of each car, $F = (n_{total cars})(m_{mass of car})g$
 
 If we combine all the equations you get the following for stress:
 
@@ -160,10 +168,10 @@ $$
 Then simplifying this, we get:
 
 $$
-\sigma = \dfrac{3Lnmg}{4bh^2}
+\fbox{$\sigma = \dfrac{3Lnmg}{4bh^2}$}
 $$
 
-Create a program called `bridge_stress_calculator.py` that takes the input from the user for the number of cars (represented as m or mass), the length (L), width (b), and height (h) to find the max stress of a bridge. You may assume that each car is $1500kg$ and use $g = 9.81m/s$. Have the program then print out the max stress given these parameters. 
+Create a program called `bridge_stress_calculator.py` that takes the input from the user for the number of cars (represented as m or mass), the length (L), width (b), and height (h) to find the max stress of a bridge. You may assume that each car is $1500kg$ and use `g = 9.81`. Have the program then print out the max stress given these parameters. 
 
 After creating your program, do the following:
 - Test using these values, $n = 67, L = 15m, b = 3m, h = 0.8m.$ The result is around $5776787.11Pa$
@@ -191,7 +199,7 @@ $$
 Then, using some conversions, we know that $360\degree = 2\pi$. This simplifies to the following:
 
 $$
-R = \frac{D}{\theta}
+\fbox{$R_{earth} = \dfrac{D}{\theta}$}
 $$
 
 Create a program called `calc_earth_radius.py` that takes the distance (in km) an angle (in degrees) to estimate the radius of the earth. You will have to convert the degrees into radians using the `radians()` function from the `math` module in your calculations. Print both the estimated and real radius (6,378km) and print the error. Error calculation:
@@ -212,7 +220,7 @@ Recommended Functions/Operations: `float()`, `math.radians()`, `/`, `()`
 
 
 ## Lab 2d
-Many jobs have a standard amount of hours worked in a biweekly pay period. This is usually 80 hours. However, there are times an employee make work more hours than the standard. Either because there is low staff or the emokpyee may need extra money. For this, they will be compensated by being payed a little extra from the standard, usually in a 1.5 times rate.
+Many jobs have a standard amount of hours worked in a biweekly pay period. This is usually 80 hours. However, there are times an employee may work more hours than the standard. Either because there is low staff or the emokpyee may need extra money. For this, they will be compensated by being payed a little extra from the standard, usually in a 1.5 times rate.
 
 Here is the breakdown, an employee's total gross pay can be calculated with the following equation:
 
