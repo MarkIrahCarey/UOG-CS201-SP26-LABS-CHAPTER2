@@ -33,9 +33,9 @@ Other help functions: `help()`, `dir()`
 ## Grading Criteria
 |Lab Number| Description| Total|
 |-|-|-|
-|Lab 2a| Physics in Action! | 25pts | 
+|Lab 2a| Physics in Action! | 30pts | 
 |Lab 2b| Engineering Statics | 25pts |
-|Lab 2c| Estimating the Radius of the Earth | 25pts|
+|Lab 2c| Estimating the Radius of the Earth | 20pts|
 |Lab 2d| Calcuating employee pay | 15pts|
 |Lab 2e| Taxes on a Restaurant | 10pts|
 
@@ -60,6 +60,7 @@ Gross Pay: $2090
 ## Lab 2e
 ```
 Enter your restaurant bill $: 34.90
+Enter the restaurant's Gratuity rate: 10
 Gratuity: $3.49
 Total bill: $38.39
 ```
