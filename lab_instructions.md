@@ -219,7 +219,7 @@ Put the answer for Guam to Hawaii as comments at the end of your python script.
 Recommended Functions/Operations: `float()`, `math.radians()`, `/`, `()`
 
 
-## Lab 2d
+## Lab 2d: GrossPay with Overtime Hours
 Many jobs have a standard amount of hours worked in a biweekly pay period. This is usually 80 hours. However, there are times an employee may work more hours than the standard. Either because there is low staff or the emokpyee may need extra money. For this, they will be compensated by being payed a little extra from the standard, usually in a 1.5 times rate.
 
 Here is the breakdown, an employee's total gross pay can be calculated with the following equation:
@@ -238,7 +238,7 @@ Create a program called `employeepay.py` that takes the inputs for the hourly wa
 
 Recommended Functions/Operations: `()`, `*`, `+`
 
-## Lab 2e
+## Lab 2e: Bill Calculator (with tip)
 
 When you eat at a restaurant, your bill includes the cost of food and drinks. But there's often an additional amount called gratuity or tip. This is a percentage of your bill that you add to thank your server for good service.
 
