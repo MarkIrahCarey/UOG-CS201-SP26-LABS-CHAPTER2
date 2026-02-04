@@ -27,7 +27,9 @@ We want to know how we can get the following:
 To calculate this, there are three things we need to look out for, position, velocity, and acceleration. Gravity always pulls down, so `g = -9.81m/s^2`.
 
 Lets look at our two friends, displacement and velocity which are the following equations:
+
 Displacement: $s(t) = s_0 + v_0t + \dfrac{1}{2}at^2$
+
 Velocity: $v(t) = v_0 + at$
 
 The velocities for both x and y positions are the following:
