@@ -10,12 +10,9 @@ $$
 
 Where: 
 
-$G(\text{Gravitational Constant}): 6.674 \cdot 10^{-11} N\cdot m^2 / kg^2
-$
+$$G(\text{Gravitational Constant}): 6.674 \cdot 10^{-11} N\cdot m^2 / kg^2$$
 
-$
-m_1, m_2 (\text{Masses of the Objects}): \text{The mass of the two objects}
-$
+$$m_1, m_2 (\text{Masses of the Objects}): \text{The mass of the two objects}$$
 
 Suppose we wanted to know the gravity of any object. To do this, the Force exterted from the object on a small mass would be:
 
