@@ -38,5 +38,5 @@ Then after, test with these values:
 
 - Saturn: $5.683 \cdot 10^{26}kg$, $5.8232 \cdot 10^7m$
 
-- Sun: $mass: 1.989 \cdot 10^{30}kg$, $1.392 \cdot 10^9m$
+- Sun: $mass: 1.989 \cdot 10^{30}kg$, $6.96 \cdot 10^8m$
 
