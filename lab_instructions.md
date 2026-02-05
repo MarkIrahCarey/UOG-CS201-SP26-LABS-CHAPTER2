@@ -118,13 +118,25 @@ $$
 \fbox{$x(t) = \dfrac{v_0^2\sin(2\theta)}{g}$}
 $$
 
-Create a program called `projectile_calculator.py` that for any ball or projectile, asks for the initial velocity ($v_0$) and angle ($\theta$) in degrees from the user, then calculates and returns how hight the ball will fly, how long the ball will be in the air, and how far the ball will travel. Assume no air resistance and that gravity is `g = 9.81`. 
+Create a program called `projectile_calculator.py` that for any ball or projectile, asks for the initial velocity ($v_0$) and angle ($\theta$) in degrees from the user, then calculates and returns how hight the ball will fly, how long the ball will be in the air, and how far the ball will travel. Assume no air resistance and that gravity is `g = 9.81`. Note: you will have to convert the angle from degrees to radians, so we will also use the `radians()` function from the `math` module.
 
 Once the program is created test it with the following values:
 - $v_0 = 22, \theta = 30$ 
 - $v_0 = 42.1, \theta = 45$ 
 
-Recommended functions/operations: `math.sin`, `math.cos`, `/`, `**`
+#### Test Case for $v_0 = 22, \theta = 30$:
+```
+Please give the initial velocity of projectile: 22
+Please give the angle in degrees: 30
+
+=== Calculations! ===
+The max height of this projectile: 6.167 m
+How long will this be in the air: 2.243 s
+How long the projectile will travel: 42.727 m
+```
+
+Recommended functions/operations: `math.radians()`, `math.sin()`, `math.cos()`, `/`, `**`
+
 ## Lab 2b: Engineering Statics
 
 For a lot of history, bridges were build by experience. We know that thicker beams felt safer, arches felt strong, and if the bridge failed, we take the knowledge of that bridge to build a better one. We still rely on these types of instincts today, however, we turned it into math!
@@ -173,9 +185,18 @@ $$
 
 Create a program called `bridge_stress_calculator.py` that takes the input from the user for the number of cars (represented as m or mass), the length (L), width (b), and height (h) to find the max stress of a bridge. You may assume that each car is $1500kg$ and use `g = 9.81`. Have the program then print out the max stress given these parameters. 
 
-After creating your program, do the following:
-- Test using these values, $n = 67, L = 15m, b = 3m, h = 0.8m.$ The result is around $5776787.11Pa$
-- Use it find out what is the max amount of cars for the underpass bridge on Guam (the one at the airport) given the following: $1,000,000 Pa$ for a bridge length of $20.4m$, width of $12m$, and a height of $5m$.
+After creating your program, test it using these values, $n = 67, L = 15m, b = 3m, h = 0.8m.$ You should get the following:
+```
+Hello user! We are going to calculate the stress of your bridge!
+First, What is the length of the bridge: 15
+Then, What is the base of the bridge: 3
+Then, what is the height of the bridge: 0.8
+Now the number of cars that the bridge can hold: : 67
+
+=== ✨Stress✨ ===
+The stress of your bridge is: 5776787.109 Pa
+```
+Then, use it find out what is the max amount of cars for the underpass bridge on Guam (the one at the airport) given the following: $1,000,000 Pa$ for a bridge length of $20.4m$, width of $12m$, and a height of $5m$.
 
 Please have the answer of cars as a comment at the end of your script.
 (Note: The Following Pa is just a random number, I do not know the actual max stress of the bridge)
@@ -212,6 +233,16 @@ After creating your program, test your program using the following values:
 - Test with Eratosthesenes Estimations: d = 800km, $\theta = 7.2\degree$, you shoudl get around 6366.2km, with a 0.002% error
 - Approximate Guam To Hawaii: d $\approx$ 6126km, $\theta \approx 55.15\degree$  
 
+#### Test case for Eratosthesenes estimations
+```
+First, we need the distance between two locations: 800
+Then we need the angle of the shadow: 7.2
+
+Calculating radius of the earth...
+The radius of the earth: 6366.198 km
+Wow, the error is around: 0.002 %!
+```
+
 Put the answer for Guam to Hawaii as comments at the end of your python script.
 
 (The angle for Guam to Hawaii was calculated using [OmniCalculator](https://www.omnicalculator.com/physics/sun-angle))
@@ -236,6 +267,19 @@ $$
 
 Create a program called `employeepay.py` that takes the inputs for the hourly wage and total hours. Assume that regular hours is 80 hours and that there is always overtime hours. Have it display the normal pay, overtime pay, and gross pay.
 
+#### Test Case:
+Assume that worker always has overtime pay...
+```
+Enter your hourly pay: 22
+Enter the amount of hours worked: 90
+
+Total Hours Worked: 80
+Overtime Hours: 10
+Regular Pay: $1760
+Overtime Pay: $330
+Gross Pay: $2090
+```
+
 Recommended Functions/Operations: `()`, `*`, `+`
 
 ## Lab 2e: Bill Calculator (with tip)
@@ -257,5 +301,13 @@ Total = Bill + Tip amount
 $$
 
 Create a program called `grauity_calculator.py` that has the user enter the restaurant bill, and the Gratuity percent. Then display the tip amount from the bill, and the total bill. 
+
+#### Test case:
+```
+Enter your restaurant bill $: 34.90
+Enter the restaurant's Gratuity rate: 10
+Gratuity: $3.49
+Total bill: $38.39
+```
 
 Recommended Functions/Operations: `()`, `*`, `+`

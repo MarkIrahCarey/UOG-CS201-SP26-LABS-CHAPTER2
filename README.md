@@ -42,34 +42,6 @@ Other help functions: `help()`, `dir()`
 I will grade mostly for functionality but also the test cases on my end.
 ## Test cases
 
-Will insert laba-c test cases later...
-### Lab 2a
-```
-```
-### Lab 2b
-```
-```
-### Lab 2c
-```
-```
-### Lab 2d
+They are in the `lab_instructions.md`
 
-Assume that worker always has overtime pay...
-```
-Enter your hourly pay: 22
-Enter the amount of hours worked: 90
 
-Total Hours Worked: 80
-Overtime Hours: 10
-Regular Pay: $1760
-Overtime Pay: $330
-Gross Pay: $2090
-```
-
-## Lab 2e
-```
-Enter your restaurant bill $: 34.90
-Enter the restaurant's Gratuity rate: 10
-Gratuity: $3.49
-Total bill: $38.39
-```
