@@ -247,7 +247,7 @@ Put the answer for Guam to Hawaii as comments at the end of your python script.
 
 (The angle for Guam to Hawaii was calculated using [OmniCalculator](https://www.omnicalculator.com/physics/sun-angle))
 
-Recommended Functions/Operations: `float()`, `math.radians()`, `/`, `()`
+Recommended Functions/Operations: `float()`, `math.radians()`, `math.fabs()`, `/`, `()`
 
 
 ## Lab 2d: GrossPay with Overtime Hours
