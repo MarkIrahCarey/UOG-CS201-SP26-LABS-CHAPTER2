@@ -8,12 +8,14 @@ $$
 F = G\dfrac{m_1m_2}{g}
 $$
 
-Where:
+Where: 
 
-$$
-G(\text{Gravitational Constant}): 6.674 \cdot 10^{-11} N\cdot m^2 / kg^2 \\
+$G(\text{Gravitational Constant}): 6.674 \cdot 10^{-11} N\cdot m^2 / kg^2
+$
+
+$
 m_1, m_2 (\text{Masses of the Objects}): \text{The mass of the two objects}
-$$
+$
 
 Suppose we wanted to know the gravity of any object. To do this, the Force exterted from the object on a small mass would be:
 
@@ -35,7 +37,9 @@ Create a program called `gravity_calculator.py` that grabs the Mass of the plane
 So for example, $a \cdot 10^n$, we will get a the significant/coefficient, and n the power. Then calculate the gravity of that planet (or object). Round that gravity, then display the gravity.
 
 Then after, test with these values:
-Earth: $mass: 5.972 \cdot 10^{24}kg$, $radius: 6.371 \cdot 10^6m$
-Saturn: $5.683 \cdot 10^{26}kg$, $5.8232 \cdot 10^7m$
-Sun: $mass: 1.989 \cdot 10^{30}kg$, $1.392 \cdot 10^9m$
+- Earth: $mass: 5.972 \cdot 10^{24}kg$, $radius: 6.371 \cdot 10^6m$
+
+- Saturn: $5.683 \cdot 10^{26}kg$, $5.8232 \cdot 10^7m$
+
+- Sun: $mass: 1.989 \cdot 10^{30}kg$, $1.392 \cdot 10^9m$
 
