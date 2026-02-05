@@ -11,7 +11,7 @@ $$
 Where:
 
 $$
-G(\text{Gravitational Constant}): 6.674 \cdot 10^{-11} N\cdot m^2 / kg^2 \\[1em]
+G(\text{Gravitational Constant}): 6.674 \cdot 10^{-11} N\cdot m^2 / kg^2 \\
 m_1, m_2 (\text{Masses of the Objects}): \text{The mass of the two objects}
 $$
 
